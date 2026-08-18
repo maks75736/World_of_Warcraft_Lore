@@ -1,0 +1,62 @@
+/* ===================================================
+   ПЛАВАЮЧИЙ КЛІКАБЕЛЬНИЙ INFOBOX
+   =================================================== */
+.callout[data-callout-metadata*="right"] {
+    float: right;
+    width: 290px;
+    margin: 0 0 1em 1.5em;
+    position: relative;
+    z-index: 10;
+    pointer-events: auto;
+}
+
+.callout[data-callout-metadata*="right"] a,
+.callout[data-callout-metadata*="right"] .internal-link {
+    position: relative;
+    z-index: 20;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.callout[data-callout-metadata*="right"] ~ * {
+    position: relative;
+    z-index: 1;
+}
+
+.callout[data-callout-metadata*="right"] ~ h2,
+.callout[data-callout-metadata*="right"] ~ h3 {
+    clear: none;
+}
+
+/* ===================================================
+   ПРИМУСОВА 100% ЯСКРАВІСТЬ ДЛЯ ЗОБРАЖЕНЬ ТА КОНТЕЙНЕРІВ
+   =================================================== */
+body, .theme-dark, .theme-light {
+    --image-dim-opacity: 1 !important;
+    --image-dim-filter: none !important;
+    --image-muted: 1 !important;
+    --image-opacity: 1 !important;
+}
+
+.image-embed,
+.internal-embed,
+.image-embed img,
+.internal-embed img,
+.markdown-rendered img,
+.markdown-preview-view img,
+.callout img,
+.callout-content img {
+    opacity: 1 !important;
+    filter: none !important;
+    -webkit-filter: none !important;
+    mix-blend-mode: normal !important;
+    background-color: transparent !important;
+}
+
+/* Прибираємо можливі затемнюючі напівпрозорі псевдоелементи */
+.image-embed::after,
+.image-embed::before,
+.internal-embed::after,
+.internal-embed::before {
+    display: none !important;
+}

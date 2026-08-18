@@ -1,0 +1,636 @@
+{
+  "autoParse": true,
+  "calendars": [
+    {
+      "name": "World of Warcraft calendar",
+      "description": "World of Warcraft calendar",
+      "path": [],
+      "supportInlineEvents": true,
+      "inlineEventTag": "подія",
+      "showIntercalarySeparately": true,
+      "static": {
+        "displayDayNumber": true,
+        "incrementDay": true,
+        "displayMoons": false,
+        "firstWeekDay": 1,
+        "overflow": true,
+        "weekdays": [
+          {
+            "type": "day",
+            "name": "Sunday",
+            "id": "ID_19ea684b4a08"
+          },
+          {
+            "type": "day",
+            "name": "Monday",
+            "id": "ID_2928b90ab949"
+          },
+          {
+            "type": "day",
+            "name": "Tuesday",
+            "id": "ID_0ad9a8f9e95b"
+          },
+          {
+            "type": "day",
+            "name": "Wednesday",
+            "id": "ID_195a4b290bc9"
+          },
+          {
+            "type": "day",
+            "name": "Thursday",
+            "id": "ID_abe8c89b0999"
+          },
+          {
+            "type": "day",
+            "name": "Friday",
+            "id": "ID_2b5b8a79fa4a"
+          },
+          {
+            "type": "day",
+            "name": "Saturday",
+            "id": "ID_1a78cb79c8cb"
+          }
+        ],
+        "months": [
+          {
+            "name": "January",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_e9997a780b3a"
+          },
+          {
+            "name": "February",
+            "type": "month",
+            "length": 28,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b8c9ebeb0b89"
+          },
+          {
+            "name": "March",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_b83bda2b9be8"
+          },
+          {
+            "name": "April",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_29baea7b28ab"
+          },
+          {
+            "name": "May",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_6a3899fad909"
+          },
+          {
+            "name": "June",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_384aeb1afa8a"
+          },
+          {
+            "name": "July",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_48b8cba87b8a"
+          },
+          {
+            "name": "August",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_fa0b1a6bab8a"
+          },
+          {
+            "name": "September",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_da880b8af849"
+          },
+          {
+            "name": "October",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_babba8186968"
+          },
+          {
+            "name": "November",
+            "type": "month",
+            "length": 30,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_da582bfaf9b9"
+          },
+          {
+            "name": "December",
+            "type": "month",
+            "length": 31,
+            "interval": 1,
+            "offset": 0,
+            "id": "ID_ba1bab4a3a28"
+          }
+        ],
+        "moons": [
+          {
+            "name": "Moon",
+            "cycle": 29.530588853,
+            "offset": 9.24953,
+            "faceColor": "#ffffff",
+            "shadowColor": "#000000",
+            "id": "ID_a9ab186b1819"
+          }
+        ],
+        "leapDays": [
+          {
+            "name": "Leap Day",
+            "type": "leapday",
+            "interval": [
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 4
+              },
+              {
+                "ignore": false,
+                "exclusive": true,
+                "interval": 100
+              },
+              {
+                "ignore": false,
+                "exclusive": false,
+                "interval": 400
+              }
+            ],
+            "offset": 0,
+            "timespan": 1,
+            "intercalary": false,
+            "id": "ID_b91ad86a887a"
+          }
+        ],
+        "eras": [
+          {
+            "id": "ID_9b7b4a890aea",
+            "type": "era",
+            "name": "Темна Імперія (BDP)",
+            "description": "",
+            "format": "{{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": false,
+            "date": {
+              "day": 1,
+              "month": 7,
+              "year": -150000
+            },
+            "end": {
+              "day": 1,
+              "month": 7,
+              "year": -25001
+            }
+          },
+          {
+            "id": "ID_1b89b8286ac8",
+            "type": "era",
+            "name": "Впорядкування Азероту (BDP)",
+            "description": "",
+            "format": "{{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": false,
+            "date": {
+              "day": 1,
+              "month": 0,
+              "year": -25000
+            },
+            "end": {
+              "day": 31,
+              "month": 11,
+              "year": -10001
+            }
+          },
+          {
+            "id": "ID_8bb9bb88ca48",
+            "type": "era",
+            "name": "Прадавній Калімдор (BDP)",
+            "description": "",
+            "format": "{{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": false,
+            "date": {
+              "day": 1,
+              "month": 0,
+              "year": -10000
+            },
+            "end": {
+              "day": 31,
+              "month": 11,
+              "year": -1
+            }
+          },
+          {
+            "id": "ID_e9f8280a087a",
+            "type": "era",
+            "name": "Ера Темного Порталу (ADP)",
+            "description": "",
+            "format": "{{era_name}}",
+            "endsYear": false,
+            "isEvent": false,
+            "category": null,
+            "isStartingEra": false,
+            "date": {
+              "day": 1,
+              "month": 0,
+              "year": 0
+            }
+          }
+        ],
+        "offset": 0,
+        "padDays": 2,
+        "padMonths": 2,
+        "years": [],
+        "useCustomYears": false
+      },
+      "seasonal": {
+        "seasons": [
+          {
+            "id": "STANDARD_WINTER",
+            "name": "Winter",
+            "color": "#ADD8E6",
+            "kind": "Winter",
+            "type": "Periodic",
+            "duration": 91.310625,
+            "weatherOffset": 56,
+            "weatherPeak": 5
+          },
+          {
+            "id": "STANDARD_SPRING",
+            "name": "Spring",
+            "kind": "Spring",
+            "color": "#90EE90",
+            "type": "Periodic",
+            "duration": 91.310625,
+            "weatherOffset": 56,
+            "weatherPeak": 5
+          },
+          {
+            "id": "STANDARD_SUMMER",
+            "name": "Summer",
+            "kind": "Summer",
+            "color": "#FFFF00",
+            "type": "Periodic",
+            "duration": 91.310625,
+            "weatherOffset": 56,
+            "weatherPeak": 5
+          },
+          {
+            "id": "STANDARD_AUTUMN",
+            "name": "Autumn",
+            "kind": "Autumn",
+            "color": "#DAA520",
+            "type": "Periodic",
+            "duration": 91.310625,
+            "weatherOffset": 56,
+            "weatherPeak": 5
+          }
+        ],
+        "offset": -12.5,
+        "type": "Periodic",
+        "displayColors": true,
+        "interpolateColors": true,
+        "weather": {
+          "enabled": false,
+          "seed": 1,
+          "tempUnits": "Imperial",
+          "windUnits": "Metric",
+          "primaryWindDirection": "E",
+          "freezingPoint": 0
+        }
+      },
+      "locations": {
+        "locations": []
+      },
+      "current": {
+        "day": 17,
+        "month": 7,
+        "year": 2026
+      },
+      "events": [
+        {
+          "name": "Хмільний фестиваль",
+          "description": "Дварфи та пандарени святкують осінній врожай пивом, перегонами на баранах та гуляннями біля Стальгорна й Оргріммара.",
+          "date": {
+            "day": [
+              20,
+              6
+            ],
+            "month": [
+              8,
+              9
+            ],
+            "year": 1
+          },
+          "id": "ID_8bc81be87b5b",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Свято Місяця",
+          "description": "Вшанування предків, старійшин та благословення богині Елуни на честь перемоги над Палаючим Легіоном у Війні Древніх.",
+          "date": {
+            "month": [
+              0,
+              1
+            ],
+            "day": [
+              20,
+              10
+            ],
+            "year": 1
+          },
+          "id": "ID_f85939baea08",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Любовна лихоманка",
+          "description": "Свято кохання та прихильності по всьому Азероту; супроводжується парфумами Королівської хімічної компанії та подарунками в столицях.",
+          "date": {
+            "month": 1,
+            "day": [
+              5,
+              19
+            ],
+            "year": 1
+          },
+          "id": "ID_2a8b4b285a28",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Сад Чудес",
+          "description": "Весняне свято відродження життя, пошуку розмальованих яєць та святкування єдності рас Азероту.",
+          "date": {
+            "month": 3,
+            "day": [
+              8,
+              15
+            ],
+            "year": 1
+          },
+          "id": "ID_48285939a88a",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Тиждень Дітвори",
+          "description": "Час турботи про сиріт Штормграду, Оргріммара та Шаттрату, які постраждали від воєнних конфліктів.",
+          "date": {
+            "month": 4,
+            "day": [
+              1,
+              8
+            ],
+            "year": 1
+          },
+          "id": "ID_08b94beb7b58",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Вогняне Сонцестояння",
+          "description": "Святкування літнього тепла, запалювання священних багать і вшанування духів стихій по всьому світу.",
+          "date": {
+            "month": [
+              5,
+              5
+            ],
+            "day": [
+              21,
+              5
+            ],
+            "year": 1
+          },
+          "id": "ID_1a996beb0b8a",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Тиждень Врожаю",
+          "description": "День пам'яті полеглих героїв: Альянс вшановує Утера Світлоносного, а Орда — Ґрома Пеклокрика.",
+          "date": {
+            "month": [
+              8,
+              9
+            ],
+            "day": [
+              25,
+              2
+            ],
+            "year": 1
+          },
+          "id": "ID_3a4bd8ba1aab",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Гарбузовиння",
+          "description": "Свято на честь звільнення від волі Короля-Ліча та захист поселень від нападу Вершника без голови.",
+          "date": {
+            "month": [
+              9,
+              10
+            ],
+            "day": [
+              18,
+              1
+            ],
+            "year": 1
+          },
+          "id": "ID_68b8d8d80939",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "День Мертвих",
+          "description": "Коротке шанування пам'яті духів предків та померлих родичів на цвинтарях столиць.",
+          "date": {
+            "month": 10,
+            "day": [
+              1,
+              3
+            ],
+            "year": 1
+          },
+          "id": "ID_b838db3bfa78",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Бенкет Мандрівників",
+          "description": "Традиційне осіннє застілля зі спільними трапезами біля великих міст на знак подяки за мир і врожай.",
+          "date": {
+            "month": 10,
+            "day": [
+              20,
+              27
+            ],
+            "year": 1
+          },
+          "id": "ID_da0838b889a9",
+          "note": null,
+          "category": null,
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        },
+        {
+          "name": "Зимовий Покрив",
+          "description": "Головне зимове свято: прихід Дідуся Зими, частування імбирним печивом і роздача подарунків під святковими ялинками.",
+          "date": {
+            "month": [
+              11,
+              0
+            ],
+            "day": [
+              16,
+              2
+            ],
+            "year": 1
+          },
+          "id": "ID_29fa6a5b2a19",
+          "note": null,
+          "category": "historical-events",
+          "sort": {
+            "timestamp": 5e-324,
+            "order": ""
+          },
+          "type": "Recurring"
+        }
+      ],
+      "id": "ID_282a3a7b0b3b",
+      "categories": [
+        {
+          "name": "Війни та Битви",
+          "id": "christian-holidays",
+          "color": "#9b2c2c"
+        },
+        {
+          "name": "Космологія та Боги",
+          "id": "secular-holidays",
+          "color": "#650da0"
+        },
+        {
+          "name": "Свята Азероту",
+          "id": "historical-events",
+          "color": "#ffc800"
+        },
+        {
+          "name": "Персоналії",
+          "id": "miscellaneous-events",
+          "color": "#0288D1"
+        }
+      ],
+      "dateFormat": "YYYY"
+    }
+  ],
+  "configDirectory": null,
+  "dailyNotes": false,
+  "dateFormat": "YYYY-MM-DD",
+  "defaultCalendar": "ID_282a3a7b0b3b",
+  "eventPreview": true,
+  "exit": {
+    "saving": false,
+    "event": false,
+    "calendar": false,
+    "savingEvent": false
+  },
+  "eventFrontmatter": false,
+  "parseDates": false,
+  "version": {
+    "major": 2,
+    "minor": 1,
+    "patch": 0,
+    "beta": null
+  },
+  "debug": false,
+  "askedToMoveFC": false,
+  "askedAboutSync": false,
+  "syncBehavior": "Ask",
+  "inlineEventsTag": "подія",
+  "paths": [
+    [
+      "/",
+      "DEFAULT"
+    ]
+  ]
+}

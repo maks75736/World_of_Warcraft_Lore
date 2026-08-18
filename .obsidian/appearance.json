@@ -1,0 +1,9 @@
+{
+  "cssTheme": "ITS Theme",
+  "accentColor": "#46276d",
+  "enabledCssSnippets": [
+    "infobox"
+  ],
+  "theme": "obsidian",
+  "baseFontSize": 15
+}
